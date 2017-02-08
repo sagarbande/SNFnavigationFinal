@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_snf"
+
+            android:title="SNF Calculator" />
+        <item
+            android:id="@+id/nav_acidity"
+
+            android:title="Acidity Calculator" />
+        <item
+            android:id="@+id/nav_milk"
+
+            android:title="Milk Standardization" />
+        <item
+            android:id="@+id/nav_buttermilk"
+
+            android:title="Buttermilk Standardization" />
+        <item
+            android:id="@+id/nav_ts"
+
+            android:title="TS Calculator" />
+        <item
+            android:id="@+id/nav_price"
+
+            android:title="Milk Price Calculator" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_contact"
+
+                android:title="Contact Us" />
+            <item
+                android:id="@+id/nav_rate"
+
+                android:title="Rate Us" />
+        </menu>
+    </item>
+
+</menu>
